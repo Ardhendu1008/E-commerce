@@ -1,0 +1,50 @@
+:root{
+    --primary-text-color: white;
+    --primary-color: #232F3E;
+    --secondary-color:#0f1111;
+}
+.main{
+    margin-top: auto;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+    padding: 10px 4px 10px 4px;
+}
+
+.secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-text-color);
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+    padding: 10px;   
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+a:hover{
+    color: rgb(170, 170, 170);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
